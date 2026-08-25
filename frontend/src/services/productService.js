@@ -6,7 +6,7 @@ axios.interceptors.request.use((config) => {
   return config;
 });
 
-const API_ROOT = "http://localhost:8080/api";
+const API_ROOT = "https://itech-ecommerce-production.up.railway.app";
 const API_URL = `${API_ROOT}/products`;
 const API_CART_URL = `${API_ROOT}/carts`;
 const CART_ID_STORAGE_KEY = "itechCartId";
