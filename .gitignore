@@ -1,0 +1,44 @@
+# ==========================================
+# Java / Spring Boot Backend
+# ==========================================
+
+backend/target/
+backend/.vscode/
+
+# ==========================================
+# React / Vite Frontend
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+backend/src/main/resources/application-local.properties
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+*.code-workspace
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+
+.idea/
+*.iml
+
+# ==========================================
+# OS Files
+# ==========================================
+
+.DS_Store
+Thumbs.db

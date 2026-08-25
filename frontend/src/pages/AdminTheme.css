@@ -1,0 +1,131 @@
+.admin-shell {
+  background: #fbfaff;
+  color: #252033;
+}
+.admin-sidebar {
+  background: linear-gradient(155deg, #371079, #17053d);
+}
+.admin-brand b {
+  color: #b89aff;
+}
+.admin-sidebar nav a {
+  color: #f0eaff;
+}
+.admin-sidebar nav a.active,
+.admin-sidebar nav a:hover {
+  background: linear-gradient(100deg, #833dff, #6328d8);
+  box-shadow: 0 8px 20px #210c4f;
+}
+.sidebar-foot {
+  color: #d5c8f6;
+}
+.admin-topbar {
+  border-color: #ece8f4;
+}
+.admin-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.admin-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #33265a;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.admin-profile b {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #eee7ff;
+  color: #6330db;
+}
+.admin-profile span {
+  display: grid;
+}
+.admin-profile small {
+  font-size: 10px;
+  color: #877ca3;
+  font-weight: 400;
+}
+.admin-logout {
+  border: 1px solid #e5d9fb;
+  border-radius: 7px;
+  background: #fff;
+  color: #6330db;
+  padding: 8px 10px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.dashboard-heading p {
+  color: #7139e9;
+}
+.metric.blue i,
+.quick-actions .category {
+  background: #f0e9ff;
+  color: #6b31de;
+}
+.metric.green i,
+.quick-actions .product {
+  background: #f2ecff;
+  color: #7d3fea;
+}
+.metric.purple i,
+.quick-actions .variant {
+  background: #eee6ff;
+  color: #6430d5;
+}
+.metric.orange i,
+.quick-actions .inventory {
+  background: #f8efff;
+  color: #8b42df;
+}
+.bar-track .blue,
+.bar-track .purple {
+  background: #7139e9;
+}
+.bar-track .orange {
+  background: #a15ce8;
+}
+.bar-track .green {
+  background: #8d42de;
+}
+.section-head button,
+.product-form button {
+  background: #6732e5;
+}
+.order-id {
+  color: #6b32df;
+}
+.page-section {
+  margin-top: 0;
+  min-height: calc(100vh - 132px);
+}
+.admin-order-products {
+  color: #5e3b95 !important;
+  font-weight: 700;
+  line-height: 1.5;
+  max-width: 600px;
+}
+.admin-order {
+  grid-template-columns: 74px minmax(220px, 1fr) auto 120px;
+}
+@media (max-width: 620px) {
+  .admin-profile span,
+  .admin-date {
+    display: none;
+  }
+  .admin-logout {
+    padding: 7px;
+  }
+  .admin-order {
+    grid-template-columns: 1fr;
+  }
+}

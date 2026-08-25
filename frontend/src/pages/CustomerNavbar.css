@@ -1,0 +1,14 @@
+.app-home-theme .customer-topbar {
+  display: none;
+}
+.app-home-theme .customer-sidebar {
+  top: 70px;
+}
+.app-home-theme .customer-content {
+  padding-top: 35px;
+  max-width: none;
+}
+.app-home-theme .customer-sidebar a.selected {
+  background: #eef3ff;
+  color: #2563eb;
+}
