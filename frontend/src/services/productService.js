@@ -83,7 +83,7 @@ export const getMyOrders = () => axios.get(`${API_ROOT}/orders/my`);
 export const getCategories = () => axios.get(`${API_ROOT}/api/categories`);
 
 export const createCategory = (category) =>
-  axios.post(`${API_ROOT}/categories`, category);
+  axios.post(`${API_ROOT}/api/categories`, category);
 
 export const signup = (data) => axios.post(`${API_ROOT}/auth/signup`, data);
 export const login = (data) => axios.post(`${API_ROOT}/auth/login`, data);
