@@ -7,8 +7,8 @@ axios.interceptors.request.use((config) => {
 });
 
 const API_ROOT = import.meta.env.VITE_API_URL;
-const API_URL = `${API_ROOT}/products`;
-const API_CART_URL = `${API_ROOT}/carts`;
+const API_URL = `${API_ROOT}/api/products`;
+const API_CART_URL = `${API_ROOT}/api/carts`;
 const CART_ID_STORAGE_KEY = "itechCartId";
 
 export const getAllProducts = (search = "") => {
