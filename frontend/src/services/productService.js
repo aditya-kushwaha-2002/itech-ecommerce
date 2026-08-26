@@ -80,7 +80,7 @@ export const getOrderById = (orderId) => {
 export const getAllOrders = () => axios.get(`${API_ROOT}/orders`);
 export const getMyOrders = () => axios.get(`${API_ROOT}/orders/my`);
 
-export const getCategories = () => axios.get(`${API_ROOT}/categories`);
+export const getCategories = () => axios.get(`${API_ROOT}/api/categories`);
 
 export const createCategory = (category) =>
   axios.post(`${API_ROOT}/categories`, category);
