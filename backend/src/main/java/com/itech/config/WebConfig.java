@@ -15,7 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
 
   public void addCorsMappings(CorsRegistry registry) {
     registry
-        .addMapping("/api/**")
+        .addMapping("/**")
         .allowedOrigins("http://localhost:5173", "https://itech-ecommerce-seven.vercel.app")
         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
         .allowedHeaders("*");
